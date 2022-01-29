@@ -1,0 +1,50 @@
+.App { 
+  background-color: #020105;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;  
+  
+}
+img {
+  height: 300px;
+  padding: 3px;
+  border: 4px solid rgb(241, 121, 8);
+  border-radius: 50%;   
+}
+a{
+  text-decoration: none;
+  color: blue;
+}
+
+.click a{
+  color: rgb(21, 6, 73);
+  font-size: x-large;
+}
+.click {    
+  text-align: center;
+  align-items: center;
+  margin-left: 45%;
+  margin-top: 10%;
+  background-color: rgb(241, 121, 8);
+  width: 10%;
+  height: 40px;
+}
+.click:hover{
+transition-duration: 1s;
+background-color: burlywood;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
